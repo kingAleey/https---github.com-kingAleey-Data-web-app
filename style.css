@@ -1,0 +1,142 @@
+
+
+.body{
+    background-image:url(1611826152php48la8v.jpeg);
+}
+
+
+.logreg_box .form-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100;
+    background: transparent;
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 40px;
+    color: rgb(0, 0, 0);
+    
+
+}
+
+.firstheader {
+padding-top: 20%;
+color: rgb(0, 0, 0); 
+text-align: center;
+
+
+}
+
+
+.form-box .input-box {
+    
+    position: relative;
+    text-align: center;
+    width: 250px;
+    height: 40px;
+    border-bottom: 2px solid black;
+    margin: 20px 0;
+}
+
+.input-box input {
+    width: 100%;
+    height: 15px;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    font-weight: 500;
+    padding-right: 28px;
+    padding-bottom: 5px;
+    border-bottom: 0px solid black;
+}
+
+.input-box input {
+    position: absolute;
+    top: 80%;
+    left: 0;
+    transform: translateY(-50%);
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.input-box label {
+    pointer-events: none;
+    transition: .5s ease;
+}
+
+.input-box input:focus-label,
+.input-box input:valid-label {
+    top: -5px;
+}
+
+.form-box .remember-forgot {
+    font-size: 14.5px;
+    font-weight: 500;
+    margin: -15px 0 15px;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.remember-forgot label input {
+    accent-color: wheat;
+    margin-right: 3px;
+    text-decoration: none;
+}
+
+
+
+.btn {
+    width: 40%;
+    height: 2rem;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    font-size: 16px;
+    color: #e4e4e4;
+    padding: 7px 20px 7px 20px;
+    font-weight: bold;
+    background-color: rgb(107, 148, 70);
+    color: white;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    box-shadow: 3px 3px 14px gray;
+}
+
+.btn:hover {
+    background-color: rgb(44, 100, 44);
+    color: azure;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-weight: bolder;
+}
+
+.form-box .login-register {
+    font-size: 14.5px;
+    font-weight: 500;
+    text-align: center;
+    margin-top: 25px;
+}
+
+.login-register p a {
+    color: rgb(117, 95, 197);
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.login-register p a:hover {
+    text-decoration: underline;
+}
+
+.loginform{
+    padding-top: 7rem;
+    
+}
+
+
+
+
+
+
+
